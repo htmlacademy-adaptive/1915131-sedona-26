@@ -129,12 +129,6 @@
   margin: 0;
   color: #333333;
 }
-@media (min-width: 768px) {
-  .photo-video {
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-}
 .development__description {
   margin: 0;
   text-transform: uppercase;
@@ -339,13 +333,13 @@
   background-position: 50% 50%;
 }
 .social__item--vkontakte {
-  background-image: url("../../img/vk.svg");
+  background-image: url("../img/vk.svg");
 }
 .social__item--telegram {
-  background-image: url("../../img/tg.svg");
+  background-image: url("../img/tg.svg");
 }
 .social__item--youtube {
-  background-image: url("../../img/yt.svg");
+  background-image: url("../img/yt.svg");
 }
 @media (min-width: 768px) {
   .social__list {
@@ -437,18 +431,18 @@
   padding-left: 52px;
 }
 .qualities__item--housing {
-  background-image: url("../../img/icon-house.svg");
+  background-image: url("../img/icon-house.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 .qualities__item--food {
-  background-image: url("../../img/icon-burger.svg");
+  background-image: url("../img/icon-burger.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 .qualities__item--gifts {
   margin-bottom: 0;
-  background-image: url("../../img/icon-gift.svg");
+  background-image: url("../img/icon-gift.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -485,13 +479,13 @@
     background-position: 50% 60px;
   }
   .qualities__item--housing {
-    background-image: url("../../img/icon-house-big.svg");
+    background-image: url("../img/icon-house-big.svg");
   }
   .qualities__item--food {
-    background-image: url("../../img/icon-burger-big.svg");
+    background-image: url("../img/icon-burger-big.svg");
   }
   .qualities__item--gifts {
-    background-image: url("../../img/icon-gift-big.svg");
+    background-image: url("../img/icon-gift-big.svg");
   }
 }
 @media (min-width: 1200px) {
@@ -511,6 +505,8 @@
 }
 .reasons__image {
   display: block;
+  width: 100%;
+  height: auto;
 }
 .reasons__title {
   font-size: 18px;
@@ -602,6 +598,11 @@
   margin-top: 17px;
   margin-bottom: 38px;
 }
+.photo__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 @media (min-width: 768px) {
   .photo {
     display: grid;
@@ -682,5 +683,11 @@
 }
 .main-header--show .toggle {
   background-image: url("../img/icon-cross.svg");
+}
+@media (min-width: 1200px) {
+  .sedona-image {
+    width: 100%;
+    height: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
